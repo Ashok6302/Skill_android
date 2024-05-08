@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Menu"
+        android:icon="@drawable/baseline_menu_24"
+        android:id="@+id/menu"
+        app:showAsAction="ifRoom"/>
+    <item android:title="Student Registration"
+        android:id="@+id/bt1"/>
+    <item android:title="Student details"
+        android:id="@+id/bt2"/>
+    <item android:title="Student Scores"
+        android:id="@+id/bt4"/>
+
+    <item android:title="Logout"
+        android:id="@+id/bt3"
+        />
+
+
+</menu>

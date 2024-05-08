@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Menu"
+        android:icon="@drawable/baseline_menu_24"
+        android:id="@+id/menu"
+        app:showAsAction="ifRoom"/>
+    <item android:title="Course Enroll"
+        android:id="@+id/bt1"/>
+    <item android:title="Change Password"
+        android:id="@+id/bt2"/>
+
+    <item android:title="Tutorial"
+        android:id="@+id/bt3"/>
+    <item android:title="Mocktest"
+        android:id="@+id/bt4"/>
+
+    <item android:title="Feedback"
+        android:id="@+id/bt5"
+        />
+    <item android:title="Leaderboard"
+        android:id="@+id/bt6"
+        />
+    <item android:title="Logout"
+        android:id="@+id/bt7"
+        />
+
+
+</menu>

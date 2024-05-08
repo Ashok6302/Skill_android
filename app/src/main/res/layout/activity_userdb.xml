@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userdb"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/lavender"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skill"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="110dp"
+            tools:ignore="SpUsage">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="200dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt1"
+            android:backgroundTint="@color/teal"
+            android:text="Course Enroll"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            tools:ignore="HardcodedText,SpUsage">
+
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/bt2"
+            android:backgroundTint="@color/teal"
+            android:text="Change Password"
+            android:textColor="@color/white"
+            android:textSize="20dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/teal"
+            android:text="Tutorial"
+            android:id="@+id/bt3"
+            android:textColor="@color/white"
+            android:textSize="20dp">
+
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/teal"
+            android:text="Mock test"
+            android:id="@+id/bt4"
+            android:textColor="@color/white"
+            android:textSize="20dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/teal"
+            android:text="Feedback"
+            android:textColor="@color/white"
+            android:textSize="20dp">
+
+        </Button>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/bt7"
+            android:backgroundTint="@color/teal"
+            android:text="Scoreboard"
+            android:textColor="@color/white"
+            android:textSize="20dp">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/lavender">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STUDY MATE"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="115dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <!-- First TextView -->
+            <!-- Second TextView -->
+            <TextView
+                android:id="@+id/m3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="150dp"
+                android:layout_marginRight="15dp"
+                android:text="PHP Program Tutorial"
+                android:textAlignment="center"
+                android:textColor="@color/teal"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/m1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:text="  --> PHP, which stands for Hypertext Preprocessor, is a widely-used open-source scripting language that is particularly suited for web development and can be embedded into HTML.
+
+                                                              --> It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994 and has since evolved into a powerful tool relied upon by developers worldwide."
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <!-- First ImageView -->
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ph1" />
+
+            <!-- Second TextView -->
+
+            <!-- Second ImageView -->
+            <TextView
+                android:id="@+id/m2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:text=" --> Fundamentals of PHP:
+At its core, PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language.
+                                                     -->What distinguishes PHP from client-side scripting languages like JavaScript is that PHP code is executed on the server, generating HTML which is then sent to the client's web browser."
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ph2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <queries>
+
+        <!-- List of apps which you want to support for Intent pay -->
+        <package android:name="com.google.android.apps.nbu.paisa.user" />
+        <package android:name="com.phonepe.app" />
+        <!--
+             Specific intents you query for,
+             eg: for a custom share UI
+        -->
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:enableOnBackInvokedCallback="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logomate"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logomate"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SignupLoginRealtime"
+        tools:targetApi="31">
+        <activity
+            android:name=".mainhome"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".certificate"
+            android:exported="false" />
+        <activity
+            android:name=".scoreboard"
+            android:exported="false" />
+        <activity
+            android:name=".cquiz"
+            android:exported="false" />
+        <activity
+            android:name=".htmlquiz"
+            android:exported="false" />
+        <activity
+            android:name=".phpquiz"
+            android:exported="false" />
+        <activity
+            android:name=".feedback"
+            android:exported="false" />
+        <activity
+            android:name=".javaquiz"
+            android:exported="false" />
+        <activity
+            android:name=".pyquiz"
+            android:exported="true" />
+        <activity
+            android:name=".userdetails"
+            android:exported="false" />
+        <activity
+            android:name=".mocktest"
+            android:exported="true" />
+        <activity
+            android:name=".enrolcourse"
+            android:exported="false" />
+        <activity
+            android:name=".item_php"
+            android:exported="false" />
+        <activity
+            android:name=".Ctutorial"
+            android:exported="false" />
+        <activity
+            android:name=".tutorial"
+            android:exported="false" />
+        <activity
+            android:name=".studreg"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".adminchanpas"
+            android:exported="false" />
+        <activity
+            android:name=".studentscore"
+            android:exported="false" />
+        <activity
+            android:name=".uchanpasword"
+            android:exported="false" />
+        <activity
+            android:name=".userdb"
+            android:exported="false" />
+        <activity
+            android:name=".homeuser"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".adminlogin"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".adcourse"
+            android:exported="false" />
+        <activity
+            android:name=".item_java"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".item_python"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

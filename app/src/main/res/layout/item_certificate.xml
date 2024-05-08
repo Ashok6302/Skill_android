@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageViewCertificate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/log2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewRecipientName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewCertificate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:hint="This is to certify "
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCertificate" />
+
+    <TextView
+        android:id="@+id/UsernameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewRecipientName"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:hint="username"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRecipientName" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/UsernameTV"
+        android:layout_alignBottom="@+id/UsernameTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="On successfully completing "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/UsernameTV"
+        app:layout_constraintStart_toStartOf="@+id/UsernameTV"
+        app:layout_constraintTop_toBottomOf="@+id/UsernameTV" />
+
+    <TextView
+        android:id="@+id/coursetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/UsernameTV"
+        android:layout_alignBottom="@+id/UsernameTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        android:hint="coursename"
+        android:textColor="@color/red"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/UsernameTV"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/UsernameTV"
+        app:layout_constraintTop_toBottomOf="@+id/UsernameTV" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        android:src="@drawable/stamp"
+        app:layout_constraintStart_toEndOf="@+id/coursetv"
+        app:layout_constraintTop_toBottomOf="@+id/coursetv" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

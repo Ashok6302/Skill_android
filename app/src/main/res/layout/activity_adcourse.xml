@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adcourse">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/lavender"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STUDY MATE"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="115dp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/t1"
+        style="@android:style/Animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:text="Add Course"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="88dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="216dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="90dp"
+            android:background="@color/black"
+            android:text="Upload Image"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/et90"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:ems="10"
+            android:hint="Upload Image Above"
+android:layout_gravity="center"
+            android:textColor="@color/bluebut"
+            tools:ignore="HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="305dp" />
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Course Name"
+            android:inputType="text"
+
+            tools:ignore="HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="305dp" />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Description"
+            android:inputType="textEmailAddress"
+            tools:ignore="HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="386dp" />
+
+        <EditText
+            android:id="@+id/et3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Amount"
+            android:inputType="textPassword"
+            tools:ignore="HardcodedText,MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="473dp" />
+
+
+        <!-- Button to select an image from gallery -->
+
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="submit"
+            android:backgroundTint="@color/teal_700"
+            tools:ignore="HardcodedText" />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

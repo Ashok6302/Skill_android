@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingBottom="10dp"
+        android:background="#75D9D9D9"
+       >
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/log2"
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <!-- First TextView -->
+            <!-- Second TextView -->
+            <TextView
+                android:id="@+id/m3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:text="C Program Tutorial"
+                android:textAlignment="center"
+                android:textColor="@color/teal"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/m1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:text="         -->  C is a general-purpose, procedural programming language developed by Dennis Ritchie at Bell Labs in the early 1970s.
+
+                                                         --> It was designed to be a system programming language, meaning it was intended for writing operating systems and other low-level software where performance and control over hardware are crucial."
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+
+            <!-- First ImageView -->
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ct1" />
+
+            <!-- Second TextView -->
+
+            <!-- Second ImageView -->
+            <TextView
+                android:id="@+id/m2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:text="
+ --> Here's a list of concepts in C programming:
+
+Variables and Data Types
+Operators
+Control Structures
+Conditional statements (if, else if, else)
+Looping statements (for, while, do-while)
+Switch-case statements
+Functions
+Arrays
+Pointers
+Strings
+Structures and Unions
+File Handling
+Dynamic Memory Allocation"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="15dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ct2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
